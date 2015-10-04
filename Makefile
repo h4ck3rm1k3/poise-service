@@ -1,8 +1,8 @@
-
 pkg:
+	bundle install
 	gem build *.gemspec
-	gem install *.gem
-	rake build
+	gem install --user-install *.gem
+	bundle exec rake build
 
 test:
 #	git submodule init
