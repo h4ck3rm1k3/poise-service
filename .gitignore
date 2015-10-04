@@ -8,3 +8,4 @@ coverage/
 .yardoc/
 doc/
 pkg/
+/poise-service-1.0.3.pre.gem
